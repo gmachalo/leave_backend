@@ -86,6 +86,16 @@
       "max": "8",
       "min": "8",
       "unique": true
+    },
+    "sex": {
+      "type": "boolean",
+      "required": true
+    },
+    "marital_status": {
+      "type": "boolean"
+    },
+    "days_accumulated": {
+      "type": "integer"
     }
   }
 }
