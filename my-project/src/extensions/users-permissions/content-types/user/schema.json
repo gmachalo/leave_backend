@@ -96,6 +96,13 @@
     },
     "days_accumulated": {
       "type": "integer"
+    },
+    "nrc": {
+      "type": "biginteger",
+      "required": true,
+      "unique": true,
+      "max": "9",
+      "min": "9"
     }
   }
 }
