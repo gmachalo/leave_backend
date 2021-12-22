@@ -32,6 +32,11 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::emp-role.emp-role"
+    },
+    "leave_app": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::leave-app.leave-app"
     }
   }
 }

@@ -12,11 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "employee": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::employee.employee"
-    },
     "review": {
       "type": "relation",
       "relation": "oneToOne",
@@ -36,7 +31,7 @@
     "endDate": {
       "type": "date"
     },
-    "active": {
+    "state": {
       "type": "boolean"
     },
     "appDate": {

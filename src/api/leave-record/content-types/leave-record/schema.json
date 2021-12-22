@@ -4,7 +4,8 @@
   "info": {
     "singularName": "leave-record",
     "pluralName": "leave-records",
-    "displayName": "leave_record"
+    "displayName": "leave_record",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
