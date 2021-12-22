@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "emp_recalls",
+  "info": {
+    "singularName": "emp-recall",
+    "pluralName": "emp-recalls",
+    "displayName": "emp_recall"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "leave_app": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::leave-app.leave-app"
+    },
+    "recallDate": {
+      "type": "date"
+    },
+    "comment": {
+      "type": "text"
+    }
+  }
+}

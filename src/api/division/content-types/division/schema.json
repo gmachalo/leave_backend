@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "divisions",
+  "info": {
+    "singularName": "division",
+    "pluralName": "divisions",
+    "displayName": "division",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "emp_div": {
+      "type": "string"
+    },
+    "rate": {
+      "type": "decimal"
+    },
+    "max_accum_days": {
+      "type": "integer"
+    }
+  }
+}

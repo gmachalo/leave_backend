@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employees",
+  "info": {
+    "singularName": "employee",
+    "pluralName": "employees",
+    "displayName": "Employee",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "appointment_date": {
+      "type": "date",
+      "required": true
+    },
+    "position": {
+      "type": "string",
+      "required": true
+    },
+    "division": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::division.division"
+    },
+    "emp_role": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::emp-role.emp-role"
+    }
+  }
+}
