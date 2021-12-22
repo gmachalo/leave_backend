@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "emp_roles",
+  "info": {
+    "singularName": "emp-role",
+    "pluralName": "emp-roles",
+    "displayName": "emp_role",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "role_name": {
+      "type": "string"
+    },
+    "permissions": {
+      "type": "boolean"
+    }
+  }
+}

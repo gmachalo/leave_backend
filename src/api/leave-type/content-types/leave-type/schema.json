@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leave_types",
+  "info": {
+    "singularName": "leave-type",
+    "pluralName": "leave-types",
+    "displayName": "leave_type",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "leave_type": {
+      "type": "string"
+    },
+    "max_days": {
+      "type": "integer"
+    }
+  }
+}

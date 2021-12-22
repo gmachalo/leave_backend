@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reviews",
+  "info": {
+    "singularName": "review",
+    "pluralName": "reviews",
+    "displayName": "review"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "leave_app": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::leave-app.leave-app"
+    },
+    "review": {
+      "type": "boolean",
+      "required": true
+    },
+    "comment": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

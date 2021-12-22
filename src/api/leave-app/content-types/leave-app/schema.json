@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leave_apps",
+  "info": {
+    "singularName": "leave-app",
+    "pluralName": "leave-apps",
+    "displayName": "leaveApp",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "employee": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::employee.employee"
+    },
+    "review": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::review.review"
+    },
+    "leave_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::leave-type.leave-type"
+    },
+    "status": {
+      "type": "boolean"
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "appDate": {
+      "type": "date"
+    }
+  }
+}

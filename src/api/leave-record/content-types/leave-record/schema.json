@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leave_records",
+  "info": {
+    "singularName": "leave-record",
+    "pluralName": "leave-records",
+    "displayName": "leave_record"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "leave_app": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::leave-app.leave-app"
+    },
+    "review": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::review.review"
+    }
+  }
+}
