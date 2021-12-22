@@ -20,6 +20,9 @@
     },
     "max_accum_days": {
       "type": "integer"
+    },
+    "max_days_allowd": {
+      "type": "integer"
     }
   }
 }
